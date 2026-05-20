@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-project</title>
+</head>
+
+<body class="bg-[#212121]">
+
+  <div id="app"></div>
+  <div class="container grid place-items-center min-w-full min-h-screen">
+
+    <form id="formulario" class="bg-[#3B3B3B] p-8 grid grid-cols m-10 rounded-xl border-1" action="">
+
+      <h1 class="grid place-items-center text-3xl mb-5 p-12 bg-white rounded-full flex m-auto"></h1>
+      <p class="grid place-items-center font-bold text-xl mb-2 text-white">Welcome Back</p>
+      <p class="grid place-items-center mb-4 text-white">Cassiani Torres D. Manuel</p>
+
+
+      <label class="text-white" for="">Email</label>
+      <input id="input-email" class="outline-none bg-[#212121] border-b-2 rounded p-2 text-white" type="email" placeholder="name@example.com" name="email">
+
+      <label class="text-white mt-3" for="">Password</label>
+      <input id="input-password" class="outline-none bg-[#212121] border-b-2 rounded p-2 text-white" type="password" placeholder="Password" name="password">
+
+      <button id="btn-login" class="bg-blue-700 p-3 rounded-xl mt-5 text-white hover:bg-blue-800">Login</button>
+
+      <p class="text-center mt-7 text-white">---------------------------- OR ----------------------------</p>
+
+      <div class="flex justify-around mt-10">
+
+        <button class="bg-red-500 rounded pr-5 pl-5 pt-1 pb-1">Apple</button>
+
+        <button class="bg-yellow-500 rounded pr-5 pl-5 pt-1 pb-1">Google</button>
+
+        <button class="bg-blue-500 rounded pr-5 pl-5 pt-1 pb-1">Equis</button>
+      
+      </div>
+
+    </form>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
